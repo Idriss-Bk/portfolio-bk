@@ -1,31 +1,36 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image"; // Import the Image component
 
 const projects = [
   {
-    title: "Admin Panel",
-    description: "A comprehensive admin panel for managing user data and analytics.",
+    title: "Cycleway Coffee",
+    description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
     date: "2024",
-    link: "https://admin-panel-lyart-beta.vercel.app",
+    link: "https://www.cyclewaycoffee.net/",
+    image: "/assets/coffee.png", // Update path
   },
   {
-    title: "Coupons Pro",
-    description: "An application for managing and distributing digital coupons.",
-    date: "2023",
-    link: "https://coupons-pro.vercel.app",
+    title: "Quizzical",
+    description: "An interactive quiz app with a modern design for playing trivia quizzes.",
+    date: "2022",
+    link: "https://quizzical-uz1g.vercel.app/",
+    image: "/assets/quizz.png", // Update path
   },
   {
     title: "Naranj",
-    description: "A sophisticated platform for online fruit and vegetable shopping.",
+    description: "A restaurant website with a modern, responsive design and interactive features.",
     date: "2022",
-    link: "https://naranj.vercel.app",
+    link: "https://www.naranj.ma/",
+    image: "/assets/restu.png", // Update path
   },
   {
-    title: "Stripe Payments Integration",
-    description: "Integrated Stripe payment system into e-commerce platforms.",
+    title: "Urban Tyres",
+    description: "A sleek, modern automotive website showcasing tire products and services.",
     date: "2023",
-    link: "https://stripe-payments.vercel.app",
+    link: "https://urbantyres.netlify.app/",
+    image: "/assets/tyres.png", // Update path
   },
   // Add more projects as needed
 ];
@@ -33,11 +38,11 @@ const projects = [
 const Portfolio = () => {
   return (
     <motion.div
-    className="h-full flex flex-col items-center p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 bg-gradient-to from-gray-50 to-white"
-    initial={{ y: "-200vh" }}
-    animate={{ y: "0%" }}
-    transition={{ duration: 0.8 }}
-  >
+      className="h-full flex flex-col items-center p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 bg-gradient-to from-gray-50 to-white"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 0.8 }}
+    >
       <div className="w-full max-w-5xl mx-auto h-auto">
         {/* Hero Section */}
         <div className="mb-12 text-center">
@@ -48,26 +53,39 @@ const Portfolio = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
             <motion.div
               key={project.title}
-              className="bg-white shadow-xl rounded-lg p-6 hover:shadow-2xl transition-shadow duration-300"
+              className="card lg:card-side bg-base-100 shadow-xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-2xl text-black font-bold mb-2">{project.title}</h2>
-              <p className="text-base text-black mb-4">{project.description}</p>
-              <p className="text-sm text-gray-600 mb-4">Date: {project.date}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-4 py-2 rounded-lg bg-black text-white hover:bg-gray-800 transition duration-300"
-              >
-                View Project
-              </a>
+              <figure>
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={500} // Adjust width
+                  height={300} // Adjust height
+                  className="object-cover"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{project.title}</h2>
+                <p>{project.description}</p>
+                <p className="text-sm text-gray-600 mb-4">Date: {project.date}</p>
+                <div className="card-actions justify-end">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-black bg-slate-300 hover:bg-slate-400 focus:ring-4 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
             </motion.div>
           ))}
         </div>

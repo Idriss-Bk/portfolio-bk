@@ -3,9 +3,11 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import {Silkscreen} from "next/font/google";
+import { Silkscreen } from "next/font/google";
+import Styles from "./style.module.css";
 
-const silkscreen = Silkscreen({ subsets: ["latin"],   weight: ['400', '700'],});
+const silkscreen = Silkscreen({ subsets: ["latin"], weight: ['400', '700'] });
+
 export default function Home() {
   return (
     <motion.div
@@ -14,15 +16,20 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 0.8 }}
     >
-      <div className="flex flex-col items-center  h-screen text-center ">
-      <div className={`${silkscreen.className} text-[150px] md:text-[180px] lg:text-[220px] font-bold `}>BK</div>
+      <div className="flex flex-col items-center h-screen text-center">
+        <div className={`${silkscreen.className} text-[150px] md:text-[180px] lg:text-[220px] font-bold`}>
+          BK
+        </div>
 
-        <p className="text-lg md:text-2xl lg:text-3xl mb-4">
+        {/* Add a space between class names */}
+        <p className={`${Styles.Myp} text-lg md:text-2xl lg:text-3xl mb-4`}>
           Shaping the Future with Code and Creativity
         </p>
+        
         <p className="text-sm md:text-base lg:text-lg mb-8">
-          Welcome to my portfolio, a showcase of my journey in the digital realm. Here, you &#39;ll find a selection of projects that highlight my passion for technology and design. Each piece reflects my commitment to crafting exceptional digital experiences and solving complex problems with innovative solutions.
+          Welcome to my portfolio, a showcase of my journey in the digital realm. Here, you&#39;ll find a selection of projects that highlight my passion for technology and design. Each piece reflects my commitment to crafting exceptional digital experiences and solving complex problems with innovative solutions.
         </p>
+        
         <div className="flex gap-4">
           <Link href="/portfolio">
             <button className="px-6 py-3 rounded-lg border border-black bg-black text-white hover:bg-transparent hover:text-black transition duration-300">
