@@ -7,19 +7,40 @@
   white-space: nowrap;
   overflow: hidden;
   font-family: 'Source Code Pro', monospace;
-  font-size: 28px;
+  font-size: 25px; /* Default for desktop */
   color: black;
 }
 
-/* Text animation */
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 472px;
+/* For smaller screens, like tablets and mobiles */
+@media (max-width: 1024px) {
+  .Myp {
+    font-size: 20px; /* Adjust font size for tablets */
   }
 }
+
+@media (max-width: 768px) {
+  .Myp {
+    font-size: 16px; /* Adjust font size for mobile screens */
+  }
+}
+
+/* Text animation */
+@media (max-width: 768px) {
+    .Myp {
+      animation: animated-text-mobile 4s steps(29, end) 1s 1 normal both,
+                 animated-cursor 600ms steps(29, end) infinite;
+    }
+  }
+  
+  @keyframes animated-text-mobile {
+    from {
+      width: 0;
+    }
+    to {
+      width: 420px;
+    }
+  }
+  
 
 /* Cursor animation */
 @keyframes animated-cursor {
