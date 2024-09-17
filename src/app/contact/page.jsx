@@ -65,7 +65,7 @@ const Contactpage = () => {
       <div className="grid sm:grid-cols-2 items-start gap-14 p-12 mx-auto max-w-4xl mb-[100px] bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md ">
         <div>
           <h1 className="text-gray-800 text-3xl font-extrabold">Let&#39;s Talk</h1>
-          <p className="text-sm text-gray-500 mt-4">
+          <p className="text-sm text-gray-700 mt-4">
             Have a big idea or brand to develop and need help? Reach out! We&#39;d love to hear about your project and provide assistance..
           </p>
 
@@ -75,7 +75,7 @@ const Contactpage = () => {
               <li className="flex items-center">
                 <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                   <Link href="mailto:drissboukdirbk@gmail.com">
-                    <BiLogoGmail className="hover:text-2xl transition-all duration-200" />
+                    <BiLogoGmail className="hover:text-2xl transition-all duration-200 text-black" />
                   </Link>
                 </div>
                 <a href="javascript:void(0)" className="text-[#080d13] text-sm ml-4">

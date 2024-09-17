@@ -29,10 +29,18 @@ const Navbar = () => {
 
       {/* Logo */}
       <div  className="flex items-center justify-center  w-1/3 ">
-        <div className="text-sm  text-white text-center rounded-md  justify-between flex cursor-pointer" href="/">
-         <div className={`${silkscreen.className} w-1/2 h-1/2 bg-black text-[#f1f1f1] rounded-l p-1.5  flex justify-center items-start font-bold`}>BK</div>
-         <div className={`${silkscreen.className} w-1/2 h-1/2 bg-white text-black  rounded-r p-1.5 flex justify-center items-center font-bold `}>DEV</div>
-        </div>
+      <div className="text-sm text-white text-center rounded-md justify-between flex cursor-pointer">
+  <Link href="/" passHref className="w-1/2 h-1/2 bg-black text-[#f1f1f1] rounded-l p-1.5 flex justify-center items-start font-bold">
+    <div className={silkscreen.className} >
+      BK
+    </div>
+  </Link>
+  <Link href="/" passHref className=" w-1/2 h-1/2 bg-white text-black rounded-r p-1.5 flex justify-center items-center font-bold">
+    <div className={silkscreen.className}>
+      DEV
+    </div>
+  </Link>
+</div>
       </div>
       {/* Logo */}
 
