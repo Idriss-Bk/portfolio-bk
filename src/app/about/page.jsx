@@ -27,7 +27,7 @@ const Aboutpage = () => {
 
   return (
     <motion.div
-    className="h-200vh flex flex-col items-center p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 bg-gradient-to from-gray-100 to-white"
+    className="h-200vh flex flex-col items-center p-2 sm:p-4 md:p-8 lg:p-8 xl:p-18 bg-gradient-to from-gray-100 to-white"
     initial={{ y: "-200vh" }}
     animate={{ y: "0%" }}
     transition={{ duration: 0.8 }}

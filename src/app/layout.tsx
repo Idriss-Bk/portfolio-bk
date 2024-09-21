@@ -4,6 +4,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import Anima from "../components/Anima";
 import { Space_Grotesk } from "next/font/google";
+import Head from "next/head";
 
 
 
@@ -26,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          {/* You can add other meta tags or links here */}
+        </Head>
       <body className={inte.className}>
   <Anima>{children}</Anima>
       </body>

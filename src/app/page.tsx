@@ -17,7 +17,7 @@ export default function Home() {
       transition={{ duration: 0.8 }}
     >
       <div className="flex flex-col items-center h-screen text-center">
-        <div className={`${silkscreen.className} text-[150px] md:text-[180px] lg:text-[220px] font-bold`}>
+        <div className={`${silkscreen.className}  text-[150px] md:text-[180px] lg:text-[220px] font-bold`}>
           BK
         </div>
 
@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         
         <p className="text-sm md:text-base lg:text-lg mb-8">
-          Welcome to my portfolio, a showcase of my journey in the digital realm. Here, you&#39;ll find a selection of projects that highlight my passion for technology and design. Each piece reflects my commitment to crafting exceptional digital experiences and solving complex problems with innovative solutions.
+        Welcome to my portfolio! Here, you&#39;ll find a selection of projects that showcase my passion for technology and design, reflecting my commitment to creating exceptional digital experiences and innovative solutions.
         </p>
         
         <div className="flex gap-4">

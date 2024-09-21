@@ -9,36 +9,35 @@ const projects = [
     description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
     date: "2024",
     link: "https://www.cyclewaycoffee.net/",
-    image: "/assets/coffee.png", // Update path
+    image: "/assets/coffee.png",
   },
   {
     title: "Quizzical",
     description: "An interactive quiz app with a modern design for playing trivia quizzes.",
     date: "2022",
     link: "https://quizzical-uz1g.vercel.app/",
-    image: "/assets/quizz.png", // Update path
+    image: "/assets/quizz.png",
   },
   {
     title: "Naranj",
     description: "A restaurant website with a modern, responsive design and interactive features.",
     date: "2022",
     link: "https://www.naranj.ma/",
-    image: "/assets/restu.png", // Update path
+    image: "/assets/restu.png",
   },
   {
     title: "Urban Tyres",
     description: "A sleek, modern automotive website showcasing tire products and services.",
     date: "2023",
     link: "https://urbantyres.netlify.app/",
-    image: "/assets/tyres.png", // Update path
+    image: "/assets/tyres.png",
   },
-  // Add more projects as needed
 ];
 
 const Portfolio = () => {
   return (
     <motion.div
-      className="h-full flex flex-col items-center p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 bg-gradient-to from-gray-50 to-white"
+      className="h-full flex flex-col items-center p-2 sm:p-4 md:p-8 lg:p-8 xl:p-18 bg-gradient-to from-gray-50 to-white"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 0.8 }}
@@ -57,7 +56,7 @@ const Portfolio = () => {
           {projects.map((project) => (
             <motion.div
               key={project.title}
-              className="card lg:card-side bg-base-100 shadow-xl"
+              className="card bg-base-100 shadow-xl flex flex-col"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -66,16 +65,16 @@ const Portfolio = () => {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={500} // Adjust width
-                  height={300} // Adjust height
+                  width={600}
+                  height={400}
                   className="object-cover"
                 />
               </figure>
-              <div className="card-body">
+              <div className="card-body flex flex-col">
                 <h2 className="card-title">{project.title}</h2>
                 <p>{project.description}</p>
                 <p className="text-sm text-gray-600 mb-4">Date: {project.date}</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-end mt-auto">
                   <a
                     href={project.link}
                     target="_blank"
