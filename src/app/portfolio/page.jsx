@@ -74,6 +74,9 @@ const Portfolio = () => {
                 <h2 className="card-title">{project.title}</h2>
                 <p>{project.description}</p>
                 <p className="text-sm text-gray-600 mb-4">Date: {project.date}</p>
+                {/* <div>
+                  <h6 className="text-black bg-white p-2 rounded gap-2 text-sm">{project.tool}</h6>
+                </div> */}
                 <div className="card-actions justify-end mt-auto">
                   <a
                     href={project.link}
