@@ -26,7 +26,7 @@ const projects = [
     date: "2023",
     link: "https://urbantyres.netlify.app/",
     image: "/assets/tyres.webp",
-    tools: ["Next.js", "Tailwind CSS"],
+    tools: ["Next.js", "Tailwind CSS", "GraphQL", "WordPress"],
   },
   {
     title: "Cycleway Coffee",
@@ -34,7 +34,7 @@ const projects = [
     date: "2024",
     link: "https://www.cyclewaycoffee.net/",
     image: "/assets/coffee.webp",
-    tools: ["React", "Next.js", "Tailwind CSS"],
+    tools: ["React", "Next.js", "Tailwind CSS", "GraphQL", "WordPress"],
   },
   {
     title: "Ben Jamil",
