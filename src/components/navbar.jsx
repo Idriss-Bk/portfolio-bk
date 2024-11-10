@@ -103,7 +103,6 @@ const Navbar = () => {
             className="absolute top-4 right-4 text-2xl cursor-pointer  "
             onClick={() => setOpen(false)}
           >
-            
           </div>
           {links.map((link) => (
             <Link href={link.url} key={link.title}>
@@ -118,3 +117,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+

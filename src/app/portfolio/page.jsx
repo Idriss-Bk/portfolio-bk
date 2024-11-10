@@ -5,33 +5,42 @@ import Image from "next/image"; // Import the Image component
 
 const projects = [
   {
-    title: "Cycleway Coffee",
-    description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
-    date: "2024",
-    link: "https://www.cyclewaycoffee.net/",
-    image: "/assets/coffee.png",
+    title: "Naranj",
+    description: "A restaurant website with a modern, responsive design and interactive features.",
+    date: "2022",
+    link: "https://www.naranj.ma/",
+    image: "/assets/restu.webp",
   },
+
   {
     title: "Quizzical",
     description: "An interactive quiz app with a modern design for playing trivia quizzes.",
     date: "2022",
     link: "https://quizzical-uz1g.vercel.app/",
-    image: "/assets/quizz.png",
+    image: "/assets/quizz.webp",
   },
-  {
-    title: "Naranj",
-    description: "A restaurant website with a modern, responsive design and interactive features.",
-    date: "2022",
-    link: "https://www.naranj.ma/",
-    image: "/assets/restu.png",
-  },
+ 
   {
     title: "Urban Tyres",
     description: "A sleek, modern automotive website showcasing tire products and services.",
     date: "2023",
     link: "https://urbantyres.netlify.app/",
-    image: "/assets/tyres.png",
+    image: "/assets/tyres.webp",
   },
+  {
+    title: "Cycleway Coffee",
+    description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
+    date: "2024",
+    link: "https://www.cyclewaycoffee.net/",
+    image: "/assets/coffee.webp",
+  },
+  {
+  title: "Ben Jamil",
+  description: "Libanes Food: An Interactive Culinary Platform",
+  date: "2024",
+  link: "https://libanes-food.vercel.app/",
+  image: "/assets/restu-2.webp",
+},
 ];
 
 const Portfolio = () => {

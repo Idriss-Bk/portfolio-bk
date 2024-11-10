@@ -21,8 +21,6 @@ const Aboutpage = () => {
     { title: "Git" },
     { title: "Github" },
     { title: "WordPress" },
-   
-
   ];
 
   return (
@@ -42,9 +40,7 @@ const Aboutpage = () => {
           <p className="">
             Hi, I&#39;m IDRISS BOUKDIR, a full-stack developer passionate about creating seamless digital experiences. Since starting my coding journey in 2020, I&#39;ve worked on various projects, from personal websites to complex web applications. I specialize in building responsive, user-friendly interfaces and scalable server-side systems. Always eager to connect and explore new opportunities in web development, feel free to check out my projects and reach out if you&#39;d like to collaborate.
           </p>
-          
           </div>
-          
           </div>
         </div>
         <div className="lg:w-6/12 mb-16 text-center text-black">
