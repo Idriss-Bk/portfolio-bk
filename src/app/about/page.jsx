@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import BK from "../../../public/assets/driss.jpeg";
+import BK from "../../../public/assets/driss.webp";
 
 
 const Aboutpage = () => {
