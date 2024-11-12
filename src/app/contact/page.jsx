@@ -91,16 +91,16 @@ const Contactpage = () => {
           <div className="mt-12">
             <h2 className="text-gray-800 text-base font-bold mb-3">Socials</h2>
             <div className="ml-auto gap-5 text-2xl cursor-pointer flex md:flex text-black font-bold ">
-              <Link href="mailto:drissboukdirbk@gmail.com">
+              <Link href="/">
                 <AiFillInstagram className="hover:text-2xl transition-all duration-200" />
               </Link>
               <Link href="https://github.com/Idriss-Bk">
                 <IoLogoGithub className="hover:text-2xl transition-all duration-200" />
               </Link>
-              <Link href="https://www.linkedin.com/in/idriss-boukdir-5120a6280/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=ma">
+              <Link href="https://www.linkedin.com/in/idriss-boukdir-5120a6280">
                 <FaLinkedin className="hover:text-2xl transition-all duration-200" />
               </Link>
-              <Link href="https://www.linkedin.com/in/idriss-boukdir-5120a6280/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=ma">
+              <Link href="/">
                 <FaXTwitter className="hover:text-2xl transition-all duration-200" />
               </Link>
             </div>

@@ -79,13 +79,14 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="ml-auto gap-5 text-2xl cursor-pointer hidden md:flex text-black font-bold ">
         <Link href="mailto:drissboukdirbk@gmail.com">
-          <BiLogoGmail className="hover:text-2xl transition-all duration-200" />
+        <BiLogoGmail className="hover:border-b-2 hover:border-green-500 transition-all duration-200" />
+
         </Link>
         <Link href="https://github.com/Idriss-Bk">
-          <IoLogoGithub className="hover:text-2xl transition-all duration-200" />
+          <IoLogoGithub className="hover:border-b-2 hover:border-green-500 transition-all duration-200" />
         </Link>
-        <Link href="https://www.linkedin.com/in/idriss-boukdir-5120a6280/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=ma">
-          <FaLinkedin className="hover:text-2xl transition-all duration-200" />
+        <Link href="https://www.linkedin.com/in/idriss-boukdir-5120a6280">
+          <FaLinkedin className="hover:border-b-2 hover:border-green-500 transition-all duration-200" />
         </Link>
       </div>
       {/* Social Icons */}
