@@ -93,13 +93,14 @@ const Navbar = () => {
 
       {/* Menu */}
       {open && (
-        <motion.div
-          className="fixed top-0  left-0 w-screen h-screen bg-black text-white  flex flex-col items-center justify-center gap-4 text-2xl  z-40"
-          initial={{ opacity: 0, x: "100%" }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: "100%" }}
-          transition={{ duration: 0.15}}
-        >
+       <motion.div
+       className="fixed top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-4 text-2xl z-50"
+       initial={{ opacity: 0, x: "100%" }}
+       animate={{ opacity: 1, x: 0 }}
+       exit={{ opacity: 0, x: "100%" }}
+       transition={{ duration: 0.15 }}
+     >
+     
           <div
             className="absolute top-4 right-4 text-2xl cursor-pointer  "
             onClick={() => setOpen(false)}

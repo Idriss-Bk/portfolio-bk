@@ -92,7 +92,7 @@ const Portfolio = () => {
                     {project.tools.map((tool) => (
                       <li
                         key={tool}
-                        className="bg-black text-white px-2 py-1 rounded"
+                        className="bg-black text-white px-2 py-1 rounded hover:bg-white border border-black hover:text-black transition duration-300"
                       >
                         {tool}
                       </li>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                    className="text-black  hover:bg-black hover:text-white border border-black  font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                   >
                     View Project
                   </a>

@@ -2,29 +2,29 @@
 
 .Myp {
   animation: animated-text 4s steps(29, end) 1s 1 normal both,
-             animated-cursor 600ms steps(29, end) infinite;
+  animated-cursor 600ms steps(29, end) infinite;
   border-right: solid 3px rgba(0, 255, 0, 0.75);
   white-space: nowrap;
   overflow: hidden;
   font-family: 'Source Code Pro', monospace;
-  font-size: 25px; /* Default for desktop */
+  font-size: 25px; 
   color: black;
 }
 
-/* For smaller screens, like tablets and mobiles */
+
 @media (max-width: 1024px) {
   .Myp {
-    font-size: 20px; /* Adjust font size for tablets */
+    font-size: 20px; 
   }
 }
 
 @media (max-width: 768px) {
   .Myp {
-    font-size: 15px; /* Adjust font size for mobile screens */
+    font-size: 15px; 
   }
 }
 
-/* Text animation */
+
 @media (max-width: 768px) {
     .Myp {
       animation: animated-text-mobile 4s steps(29, end) 1s 1 normal both,
@@ -42,7 +42,7 @@
   }
   
 
-/* Cursor animation */
+
 @keyframes animated-cursor {
   from {
     border-right-color: rgba(0, 255, 0, 0.75);

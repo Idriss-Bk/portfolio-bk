@@ -20,16 +20,12 @@ export default function Home() {
         <div className={`${silkscreen.className}  text-[150px] md:text-[180px] lg:text-[220px] font-bold`}>
           BK
         </div>
-
-        {/* Add a space between class names */}
         <p className={`${Styles.Myp} text-lg md:text-2xl lg:text-3xl mb-4`}>
           Shaping the Future with Code and Creativity
         </p>
-        
         <p className="text-sm md:text-base lg:text-lg mb-8">
         Welcome to my portfolio! Here, you&#39;ll find a selection of projects that showcase my passion for technology and design, reflecting my commitment to creating exceptional digital experiences and innovative solutions.
         </p>
-        
         <div className="flex gap-4">
           <Link href="/portfolio">
             <button className="px-6 py-3 rounded-lg border border-black bg-black text-white hover:bg-transparent hover:text-black transition duration-300">

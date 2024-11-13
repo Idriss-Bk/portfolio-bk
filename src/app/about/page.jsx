@@ -21,6 +21,7 @@ const Aboutpage = () => {
     { title: "Git" },
     { title: "Github" },
     { title: "WordPress" },
+    { title: "Figma" },
   ];
 
   return (
