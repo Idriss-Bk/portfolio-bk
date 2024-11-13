@@ -31,7 +31,7 @@ const Aboutpage = () => {
     animate={{ y: "0%" }}
     transition={{ duration: 0.8 }}
   >
-      <div className="w-full max-w-4xl mx-auto h-auto">
+      <div className="w-full max-w-4xl mx-auto h-auto ">
         {/* Intro */}
         <div className="lg:flex gap-12">
         <div className="lg:w-6/12 mb-12 text-black flex justify-center items-start flex-col">
