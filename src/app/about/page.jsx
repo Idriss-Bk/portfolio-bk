@@ -35,9 +35,9 @@ const Aboutpage = () => {
         {/* Intro */}
         <div className="lg:flex gap-12">
         <div className="lg:w-6/12 mb-12 text-black flex justify-center items-start flex-col">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Biography</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 pl-4 pr-4 lg:pl-0 lg:pr-0">Biography</h1>
           <div>
-          <div className="drop-blur-xl rounded-lg">
+          <div className="drop-blur-xl rounded-lg pl-4 pr-4 lg:pl-0 lg:pr-0">
           <p className="">
             Hi, I&#39;m IDRISS BOUKDIR, a full-stack developer passionate about creating seamless digital experiences. Since starting my coding journey in 2020, I&#39;ve worked on various projects, from personal websites to complex web applications. I specialize in building responsive, user-friendly interfaces and scalable server-side systems. Always eager to connect and explore new opportunities in web development, feel free to check out my projects and reach out if you&#39;d like to collaborate.
           </p>

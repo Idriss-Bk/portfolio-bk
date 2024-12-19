@@ -12,7 +12,7 @@ const silkscreen = Silkscreen({ subsets: ["latin"], weight: ["400", "700"] });
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/contact", title: "Contacto" },
+  { url: "/contact", title: "Contact" },
   { url: "/portfolio", title: "Portfolio" },
 ];
 
