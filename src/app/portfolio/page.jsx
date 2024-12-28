@@ -4,13 +4,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const projects = [
+   {
+    title: "BeautyPool",
+    description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
+    date: "2024",
+    link: "https://www.beautypool.ae/",
+    image: "/assets/beaty.png",
+    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Directus CMS"],
+  },
   {
     title: "Naranj",
     description: "A restaurant website with a modern, responsive design and interactive features.",
     date: "2022",
     link: "https://www.naranj.ma/",
     image: "/assets/restu.webp",
-    tools: ["React.js", "GSAP", "Bootstrap"],
+    tools: ["WordPress"],
   },
   {
     title: "Quizzical",
@@ -44,14 +52,7 @@ const projects = [
     image: "/assets/restu-2.webp",
     tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
   },
-  {
-    title: "BeautyPool",
-    description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
-    date: "2024",
-    link: "https://www.beautypool.ae/",
-    image: "/assets/beaty.png",
-    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Directus CMS"],
-  },
+  
   
 ];
 
