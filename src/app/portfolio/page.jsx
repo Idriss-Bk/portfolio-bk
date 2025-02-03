@@ -32,9 +32,17 @@ const projects = [
     title: "Urban Tyres",
     description: "A sleek, modern automotive website showcasing tire products and services.",
     date: "2023",
-    link: "https://urbantyres.netlify.app/",
+    link: "http://tirespedia.com",
     image: "/assets/tyres.webp",
     tools: ["Next.js", "Tailwind CSS", "GraphQL", "WordPress"],
+  },
+  {
+    title: "Foud Recipes",
+    description: "Discover and create delicious recipes with step-by-step guides and mouthwatering photos.",
+    date: "2024",
+    link: "https://www.foudrecipes.com/",
+    image: "/assets/recipes.png",
+    tools: ["Next.js", "Tailwind CSS", , "GraphQL"],
   },
   {
     title: "Cycleway Coffee",
