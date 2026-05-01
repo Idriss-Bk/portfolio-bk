@@ -12,16 +12,7 @@ const projects = [
     url: "https://amberhomes-liart.vercel.app/",
     tools: ["React", "Next.js", "Tailwind CSS", "GSAP", "MySQL"],
   },
-  {
-    title: "Emma Is Social",
-    description: "Modern marketing website focused on social growth services with engaging animations.",
-    date: "03/2026",
-    link: "https://emmaissocial.vercel.app/",
-    image: "",
-    url: "https://emmaissocial.vercel.app/",
-    tools: ["React", "Next.js", "Tailwind CSS", "GSAP"],
-  },
-  
+ 
   {
     title: "Naranj",
     description: "A restaurant website with a modern, responsive design and interactive features.",
@@ -60,6 +51,15 @@ const projects = [
     image: "",
     url: "https://instorefashion.myshopify.com/",
     tools: ["Shopify"],
+  },
+  {
+    title: "Emma Is Social",
+    description: "Modern marketing website focused on social growth services with engaging animations.",
+    date: "03/2026",
+    link: "https://emmaissocial.vercel.app/",
+    image: "",
+    url: "https://emmaissocial.vercel.app/",
+    tools: ["React", "Next.js", "Tailwind CSS", "GSAP"],
   },
   {
     title: "The Sagio",
