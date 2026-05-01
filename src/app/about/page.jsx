@@ -7,20 +7,39 @@ import BK from "../../../public/assets/driss.webp";
 
 const Aboutpage = () => {
   const Skills = [
-    
-    { title: "Javascript" },
-    { title: "Typescript" },
+    { title: "HTML5" },
+    { title: "CSS3" },
+    { title: "JavaScript" },
+    { title: "TypeScript" },
     { title: "React.js" },
     { title: "Next.js" },
-    { title: "Css" },
-    { title: "Bootstrap" },
-    { title: "Tailwind Css" },
-    { title: "Flutter" },
+    { title: "Tailwind CSS" },
+    { title: "SCSS" },
+    { title: "Liquid" },
+    { title: "Node.js" },
+    { title: "Express.js" },
+    { title: "PHP" },
+    { title: "REST APIs" },
+    { title: "Shopify" },
+    { title: "Directus" },
+    { title: "Strapi" },
+    { title: "WordPress" },
     { title: "MySQL" },
     { title: "MongoDB" },
+    { title: "Docker" },
+    { title: "Claude Code" },
+    { title: "Cursor" },
+    { title: "N8N" },
+    { title: "Google AI Studio" },
+    { title: "Antigravity" },
+    { title: "Ollama" },
     { title: "Git" },
-    { title: "Github" },
-    { title: "WordPress" },
+    { title: "Google Analytics" },
+    { title: "Meta Pixel" },
+    { title: "SEO Optimization" },
+    { title: "Conversion Rate Optimization" },
+    { title: "Responsive Design" },
+    { title: "Automation Workflows" },
     { title: "Figma" },
   ];
 
@@ -39,7 +58,7 @@ const Aboutpage = () => {
           <div>
           <div className="drop-blur-xl rounded-lg pl-4 pr-4 lg:pl-0 lg:pr-0">
           <p className="">
-            Hi, I&#39;m IDRISS BOUKDIR, a full-stack developer passionate about creating seamless digital experiences. Since starting my coding journey in 2020, I&#39;ve worked on various projects, from personal websites to complex web applications. I specialize in building responsive, user-friendly interfaces and scalable server-side systems. Always eager to connect and explore new opportunities in web development, feel free to check out my projects and reach out if you&#39;d like to collaborate.
+            Full-Stack Web Developer with 3+ years of experience building modern web applications and e-commerce platforms. Skilled in integrating AI tools and automation into development workflows to ship faster, smarter, and at higher quality. Experienced with React.js, Next.js, Node.js, and Shopify, with a strong focus on performance, SEO, and conversion optimization.
           </p>
           </div>
           </div>
@@ -85,24 +104,36 @@ const Aboutpage = () => {
           <h1 className="text-2xl md:text-3xl font-bold p-5 text-black">Experience</h1>
           <div className="space-y-6">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold">Freelance Web Developer</h2>
-              <p className="text-base mt-2">Jul 2024 – Present</p>
+              <h2 className="text-xl font-bold">Full-Stack Developer</h2>
+              <p className="text-base mt-2">Oct 2024 - Present</p>
+              <p className="mt-2">BeeBoss, Dubai, UAE</p>
               <ul className="list-disc list-inside mt-2">
-                <li>Increased user engagement by 25% through custom Next.js and React.js apps</li>
-                <li>Improved mobile compatibility with Tailwind CSS, boosting accessibility</li>
-                <li>Managed Mongo DB backend, ensuring 99.9% uptime</li>
-                <li>Delivered tailored web solutions with a 95% client satisfaction rate</li>
+                <li>Developed and optimized company websites and landing pages for performance and conversions</li>
+                <li>Customized Shopify themes and managed products, variants, and collections</li>
+                <li>Integrated payment gateways, analytics tools, and customer engagement features</li>
+                <li>Leveraged Claude Code, Cursor, and Ollama to accelerate development and code quality</li>
+                <li>Built automation workflows using N8N and Google AI Studio for internal operations</li>
               </ul>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold">Intern - Junior Full-Stack Developer</h2>
-              <p className="text-base mt-2">Aug 2023 - May 2024</p>
-              <p className="mt-2">Menara Technologies Bilgisaier, Marrakech, Morocco</p>
+              <h2 className="text-xl font-bold">Full-Stack Developer</h2>
+              <p className="text-base mt-2">Jul 2023 - Sep 2024</p>
+              <p className="mt-2">Menara Technology, Marrakech, Morocco</p>
               <ul className="list-disc list-inside mt-2">
-                <li>Contributed to 10+ websites, raising client satisfaction by 30%</li>
-                <li>Enhanced mobile performance by 20% using SCSS and Tailwind CSS</li>
-                <li>Developed dynamic UIs with React.js and Next.js</li>
-                <li>Applied industry best practices and used Git for version control</li>
+                <li>Built and maintained 10+ platforms using React.js, Next.js, Node.js, and PHP</li>
+                <li>Improved mobile performance by 20% through responsive UI/UX optimization</li>
+                <li>Integrated databases and APIs to support dynamic content and operations</li>
+                <li>Delivered end-to-end web solutions for clients across multiple industries</li>
+              </ul>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h2 className="text-xl font-bold">Freelance Full-Stack Developer</h2>
+              <p className="text-base mt-2">Nov 2022 - Jun 2023</p>
+              <p className="mt-2">Remote</p>
+              <ul className="list-disc list-inside mt-2">
+                <li>Developed 5+ business websites and online stores with custom features</li>
+                <li>Implemented SEO strategies and improved platform performance</li>
+                <li>Managed MySQL databases and provided technical support and maintenance</li>
               </ul>
             </div>
           </div>
@@ -112,14 +143,12 @@ const Aboutpage = () => {
           <h1 className="text-2xl md:text-3xl font-bold mb-4">Education & Certifications</h1>
           <div className="space-y-6">
             <div>
-              <h2 className="text-xl font-bold">Bachelor’s Degree</h2>
-              <p className="text-base mt-2">Computer Development - Oct 2023 / Jul 2024</p>
-              <p>School ISGA, Fes, Morocco</p>
+              <h2 className="text-xl font-bold">Bachelor&#39;s Degree in Computer Development</h2>
+              <p className="text-base mt-2">Ecole ISGA - 2023 to 2024</p>
             </div>
             <div>
-              <h2 className="text-xl font-bold">Vocational School Diploma</h2>
-              <p className="text-base mt-2">Computer Development - Oct 2021 / Jul 2023</p>
-              <p>School Racine, Marrakech, Morocco</p>
+              <h2 className="text-xl font-bold">Vocational Diploma in Computer Development</h2>
+              <p className="text-base mt-2">Ecole Racine - 2021 to 2023</p>
             </div>
           </div>
         </div>

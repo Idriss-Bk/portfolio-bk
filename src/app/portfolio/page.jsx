@@ -6,7 +6,7 @@ const projects = [
    {
     title: "BeautyPool",
     description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
-    date: "2024",
+    date: "06/2024",
     link: "https://www.beautypool.ae/",
     image: "/assets/beaty.png",
     url: "https://www.beautypool.ae/",
@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Naranj",
     description: "A restaurant website with a modern, responsive design and interactive features.",
-    date: "2022",
+    date: "11/2022",
     link: "https://www.naranj.ma/",
     image: "/assets/restu.webp",
     url: "https://www.naranj.ma/",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Quizzical",
     description: "An interactive quiz app with a modern design for playing trivia quizzes.",
-    date: "2022",
+    date: "03/2023",
     link: "https://quizzical-uz1g.vercel.app/",
     image: "/assets/quizz.webp",
     url: "https://quizzical-uz1g.vercel.app/",
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Urban Tyres",
     description: "A sleek, modern automotive website showcasing tire products and services.",
-    date: "2023",
+    date: "09/2023",
     link: "http://tirespedia.com",
     image: "/assets/tyres.webp",
     url: "http://tirespedia.com",
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Foud Recipes",
     description: "Discover and create delicious recipes with step-by-step guides and mouthwatering photos.",
-    date: "2024",
+    date: "01/2025",
     link: "https://www.foudrecipes.com/",
     image: "/assets/recipes.png",
     url: "https://www.foudrecipes.com/",
@@ -51,7 +51,7 @@ const projects = [
   {
     title: "Cycleway Coffee",
     description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
-    date: "2024",
+    date: "08/2024",
     link: "https://www.cyclewaycoffee.net/",
     image: "/assets/coffee.webp",
     url: "https://www.cyclewaycoffee.net/",
@@ -60,7 +60,7 @@ const projects = [
   {
     title: "Ben Jamil",
     description: "Libanes Food: An Interactive Culinary Platform",
-    date: "2024",
+    date: "12/2024",
     link: "https://libanes-food.vercel.app/",
     image: "/assets/restu-2.webp",
     url: "https://libanes-food.vercel.app/",
@@ -69,7 +69,7 @@ const projects = [
   {
     title: "Instore Fashion",
     description: "Shopify fashion store with a clean shopping experience and optimized product browsing.",
-    date: "2024",
+    date: "02/2026",
     link: "https://instorefashion.myshopify.com/",
     image: "",
     url: "https://instorefashion.myshopify.com/",
@@ -78,7 +78,7 @@ const projects = [
   {
     title: "The Sagio",
     description: "Shopify-based fashion storefront focused on brand style and smooth customer journey.",
-    date: "2024",
+    date: "07/2025",
     link: "https://thesagio.com/",
     image: "",
     url: "https://thesagio.com/",
@@ -87,7 +87,7 @@ const projects = [
   {
     title: "Hexed Fashion",
     description: "Modern Shopify fashion website with curated collections and responsive layout.",
-    date: "2024",
+    date: "10/2024",
     link: "https://hexedfashion.co.uk/",
     image: "",
     url: "https://hexedfashion.co.uk/",
@@ -96,7 +96,7 @@ const projects = [
   {
     title: "Ulla Johnson",
     description: "Shopify fashion project with premium visuals and collection-focused browsing.",
-    date: "2024",
+    date: "04/2026",
     link: "https://ullajohnson.com/",
     image: "",
     url: "https://ullajohnson.com/",
@@ -105,7 +105,7 @@ const projects = [
   {
     title: "Fashion Declare",
     description: "Shopify fashion platform built for storytelling, product discovery, and conversion.",
-    date: "2024",
+    date: "05/2025",
     link: "https://fashiondeclare.com/",
     image: "",
     url: "https://fashiondeclare.com/",
@@ -114,7 +114,7 @@ const projects = [
   {
     title: "Amber Homes",
     description: "Real-estate platform with dynamic listings, smooth animations, and scalable data management.",
-    date: "2024",
+    date: "09/2025",
     link: "https://amberhomes-liart.vercel.app/",
     image: "",
     url: "https://amberhomes-liart.vercel.app/",
@@ -123,7 +123,7 @@ const projects = [
   {
     title: "Smartway",
     description: "Business website project showcase.",
-    date: "2024",
+    date: "01/2026",
     link: "https://smartway.ma",
     image: "",
     url: "https://smartway.ma",
@@ -132,7 +132,7 @@ const projects = [
   {
     title: "Emma Is Social",
     description: "Modern marketing website focused on social growth services with engaging animations.",
-    date: "2024",
+    date: "03/2026",
     link: "https://emmaissocial.vercel.app/",
     image: "",
     url: "https://emmaissocial.vercel.app/",
@@ -141,7 +141,7 @@ const projects = [
   {
     title: "Gango Brand",
     description: "Shopify brand storefront with polished visuals and conversion-oriented shopping flow.",
-    date: "2024",
+    date: "11/2025",
     link: "https://gangobrand.com/en",
     image: "",
     url: "https://gangobrand.com/en",
@@ -150,7 +150,7 @@ const projects = [
   {
     title: "Ghada",
     description: "Shopify fashion niche website with product-first layout and mobile-friendly shopping.",
-    date: "2024",
+    date: "06/2023",
     link: "https://www.ghada.ma/",
     image: "",
     url: "https://www.ghada.ma/",
@@ -159,7 +159,7 @@ const projects = [
   {
     title: "Justyol",
     description: "Shopify fashion store tailored for modern catalog browsing and quick checkout.",
-    date: "2024",
+    date: "02/2024",
     link: "https://justyol.com/",
     image: "",
     url: "https://justyol.com/",
@@ -168,7 +168,7 @@ const projects = [
   {
     title: "Lemaire",
     description: "Shopify fashion project with minimalist presentation and premium e-commerce flow.",
-    date: "2024",
+    date: "08/2022",
     link: "https://www.lemaire.fr/",
     image: "",
     url: "https://www.lemaire.fr/",
@@ -177,7 +177,7 @@ const projects = [
   {
     title: "Fashion Clinic",
     description: "Shopify fashion website designed for clear product structure and clean UX.",
-    date: "2024",
+    date: "12/2023",
     link: "https://fashionclinic.com/",
     image: "",
     url: "https://fashionclinic.com/",
@@ -186,7 +186,7 @@ const projects = [
   {
     title: "Chula Fashion",
     description: "Shopify fashion storefront with focused merchandising and responsive design.",
-    date: "2024",
+    date: "07/2024",
     link: "https://chulafashion.myshopify.com/",
     image: "",
     url: "https://chulafashion.myshopify.com/",
@@ -195,7 +195,7 @@ const projects = [
   {
     title: "Fashion Fusion",
     description: "Shopify fashion niche store with strong visual hierarchy and smooth navigation.",
-    date: "2024",
+    date: "10/2022",
     link: "https://www.fashionfusion.co.za/",
     image: "",
     url: "https://www.fashionfusion.co.za/",
@@ -204,7 +204,7 @@ const projects = [
   {
     title: "Shaping New Tomorrow",
     description: "Shopify apparel storefront emphasizing product quality and conversion-focused UX.",
-    date: "2024",
+    date: "04/2025",
     link: "https://shapingnewtomorrow.com/",
     image: "",
     url: "https://shapingnewtomorrow.com/",
@@ -213,7 +213,7 @@ const projects = [
   {
     title: "YourTech",
     description: "Shopify technology store with structured product categories and streamlined purchase flow.",
-    date: "2024",
+    date: "09/2024",
     link: "https://www.yourtech.ma/",
     image: "",
     url: "https://www.yourtech.ma/",
@@ -222,7 +222,7 @@ const projects = [
   {
     title: "Tech Tiger",
     description: "Shopify tech niche website with clear product comparisons and modern e-commerce UI.",
-    date: "2024",
+    date: "05/2026",
     link: "https://www.tech-tiger.co.uk/",
     image: "",
     url: "https://www.tech-tiger.co.uk/",
@@ -231,7 +231,7 @@ const projects = [
   {
     title: "Tech Space",
     description: "Shopify-powered technology storefront with scalable catalog and responsive shopping experience.",
-    date: "2024",
+    date: "01/2023",
     link: "https://techspace.ma/",
     image: "",
     url: "https://techspace.ma/",
@@ -240,7 +240,7 @@ const projects = [
   {
     title: "Garnish Online",
     description: "Shopify tech store built for product discovery, trust, and conversion.",
-    date: "2024",
+    date: "03/2025",
     link: "https://garnishonline.myshopify.com/",
     image: "",
     url: "https://garnishonline.myshopify.com/",
@@ -249,7 +249,7 @@ const projects = [
   {
     title: "Comda Tech Collection",
     description: "Shopify tech collection page optimized for browsing accessories and gadgets.",
-    date: "2024",
+    date: "11/2024",
     link: "https://www.comda.com/collections/tech",
     image: "",
     url: "https://www.comda.com/collections/tech",
@@ -258,7 +258,7 @@ const projects = [
   {
     title: "Renee's Garden",
     description: "Shopify gardening store with seasonal product organization and user-friendly shopping.",
-    date: "2024",
+    date: "06/2022",
     link: "https://www.reneesgarden.com/",
     image: "",
     url: "https://www.reneesgarden.com/",
@@ -267,7 +267,7 @@ const projects = [
   {
     title: "Seeds Now",
     description: "Shopify gardening niche storefront focused on seed collections and easy checkout.",
-    date: "2024",
+    date: "08/2025",
     link: "https://seedsnow.myshopify.com/",
     image: "",
     url: "https://seedsnow.myshopify.com/",
@@ -276,7 +276,7 @@ const projects = [
   {
     title: "Garden In Minutes",
     description: "Shopify garden tools website with practical product filtering and responsive UX.",
-    date: "2024",
+    date: "02/2023",
     link: "https://gardeninminutes.com/",
     image: "",
     url: "https://gardeninminutes.com/",
@@ -285,7 +285,7 @@ const projects = [
   {
     title: "The Happy Gardening Life",
     description: "Shopify gardening storefront designed for educational product discovery and conversion.",
-    date: "2024",
+    date: "07/2026",
     link: "https://thehappygardeninglife.com/",
     image: "",
     url: "https://thehappygardeninglife.com/",
@@ -294,7 +294,7 @@ const projects = [
   {
     title: "Team Grow",
     description: "Shopify gardening project with clean layout, clear categories, and optimized shopping flow.",
-    date: "2024",
+    date: "04/2024",
     link: "https://teamgrow.us/",
     image: "",
     url: "https://teamgrow.us/",
@@ -303,7 +303,7 @@ const projects = [
   {
     title: "Swan Hose",
     description: "Shopify gardening store focused on durable products and frictionless purchasing.",
-    date: "2024",
+    date: "10/2025",
     link: "https://swanhose.com/",
     image: "",
     url: "https://swanhose.com/",
