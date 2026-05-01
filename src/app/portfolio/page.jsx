@@ -3,15 +3,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-   {
-    title: "BeautyPool",
-    description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
-    date: "06/2024",
-    link: "https://www.beautypool.ae/",
-    image: "/assets/beaty.png",
-    url: "https://www.beautypool.ae/",
-    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Directus CMS"],
+  {
+    title: "Amber Homes",
+    description: "Real-estate platform with dynamic listings, smooth animations, and scalable data management.",
+    date: "09/2025",
+    link: "https://amberhomes-liart.vercel.app/",
+    image: "",
+    url: "https://amberhomes-liart.vercel.app/",
+    tools: ["React", "Next.js", "Tailwind CSS", "GSAP", "MySQL"],
   },
+  
   {
     title: "Naranj",
     description: "A restaurant website with a modern, responsive design and interactive features.",
@@ -103,6 +104,15 @@ const projects = [
     tools: ["Shopify"],
   },
   {
+    title: "BeautyPool",
+    description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
+    date: "06/2024",
+    link: "https://www.beautypool.ae/",
+    image: "/assets/beaty.png",
+    url: "https://www.beautypool.ae/",
+    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Directus CMS"],
+  },
+  {
     title: "Fashion Declare",
     description: "Shopify fashion platform built for storytelling, product discovery, and conversion.",
     date: "05/2025",
@@ -111,15 +121,7 @@ const projects = [
     url: "https://fashiondeclare.com/",
     tools: ["Shopify"],
   },
-  {
-    title: "Amber Homes",
-    description: "Real-estate platform with dynamic listings, smooth animations, and scalable data management.",
-    date: "09/2025",
-    link: "https://amberhomes-liart.vercel.app/",
-    image: "",
-    url: "https://amberhomes-liart.vercel.app/",
-    tools: ["React", "Next.js", "Tailwind CSS", "GSAP", "MySQL"],
-  },
+ 
   {
     title: "Smartway",
     description: "Business website project showcase.",
