@@ -12,6 +12,15 @@ const projects = [
     url: "https://amberhomes-liart.vercel.app/",
     tools: ["React", "Next.js", "Tailwind CSS", "GSAP", "MySQL"],
   },
+  {
+    title: "Emma Is Social",
+    description: "Modern marketing website focused on social growth services with engaging animations.",
+    date: "03/2026",
+    link: "https://emmaissocial.vercel.app/",
+    image: "",
+    url: "https://emmaissocial.vercel.app/",
+    tools: ["React", "Next.js", "Tailwind CSS", "GSAP"],
+  },
   
   {
     title: "Naranj",
@@ -20,7 +29,7 @@ const projects = [
     link: "https://www.naranj.ma/",
     image: "/assets/restu.webp",
     url: "https://www.naranj.ma/",
-    tools: ["WordPress"],
+    tools: ["WordPress", "GraphQL"],
   },
   {
     title: "Quizzical",
@@ -31,24 +40,17 @@ const projects = [
     url: "https://quizzical-uz1g.vercel.app/",
     tools: ["React.js", "Tailwind CSS"],
   },
+  
+
  
   {
-    title: "Cycleway Coffee",
-    description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
-    date: "08/2024",
-    link: "https://www.cyclewaycoffee.net/",
-    image: "/assets/coffee.webp",
-    url: "https://www.cyclewaycoffee.net/",
-    tools: ["React", "Next.js", "Tailwind CSS", "GraphQL", "WordPress"],
-  },
-  {
-    title: "Ben Jamil",
-    description: "Libanes Food: An Interactive Culinary Platform",
-    date: "12/2024",
-    link: "https://libanes-food.vercel.app/",
-    image: "/assets/restu-2.webp",
-    url: "https://libanes-food.vercel.app/",
-    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+    title: "BenJamil",
+    description: "Restaurant website built with WordPress and GraphQL integration.",
+    date: "11/2024",
+    link: "https://benjamil.com/",
+    image: "",
+    url: "https://benjamil.com/",
+    tools: ["WordPress", "GraphQL"],
   },
   {
     title: "Instore Fashion",
@@ -104,6 +106,7 @@ const projects = [
     url: "https://ullajohnson.com/",
     tools: ["Shopify"],
   },
+ 
   {
     title: "BeautyPool",
     description: "Beautypool: Your Interactive Beauty and Self-Care Hub",
@@ -133,14 +136,15 @@ const projects = [
     tools: ["Business"],
   },
   {
-    title: "Emma Is Social",
-    description: "Modern marketing website focused on social growth services with engaging animations.",
-    date: "03/2026",
-    link: "https://emmaissocial.vercel.app/",
-    image: "",
-    url: "https://emmaissocial.vercel.app/",
-    tools: ["React", "Next.js", "Tailwind CSS", "GSAP"],
+    title: "Ben Jamil",
+    description: "Libanes Food: An Interactive Culinary Platform",
+    date: "12/2024",
+    link: "https://libanes-food.vercel.app/",
+    image: "/assets/restu-2.webp",
+    url: "https://libanes-food.vercel.app/",
+    tools: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
   },
+ 
   {
     title: "Gango Brand",
     description: "Shopify brand storefront with polished visuals and conversion-oriented shopping flow.",
@@ -158,6 +162,16 @@ const projects = [
     image: "",
     url: "https://www.ghada.ma/",
     tools: ["Shopify"],
+  },
+  
+  {
+    title: "Cycleway Coffee",
+    description: "A modern, responsive website for a coffee shop, featuring its menu, location, and unique offerings.",
+    date: "08/2024",
+    link: "https://www.cyclewaycoffee.net/",
+    image: "/assets/coffee.webp",
+    url: "https://www.cyclewaycoffee.net/",
+    tools: ["React", "Next.js", "Tailwind CSS", "GraphQL", "WordPress"],
   },
   {
     title: "Justyol",
