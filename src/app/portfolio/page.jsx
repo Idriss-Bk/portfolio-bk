@@ -12,6 +12,15 @@ const projects = [
     url: "https://amberhomes-liart.vercel.app/",
     tools: ["React", "Next.js", "Tailwind CSS", "GSAP", "MySQL"],
   },
+  {
+    title: "Carnetix",
+    description: "Used-car marketplace website with transparent listings and certified vehicle history checks.",
+    date: "2026",
+    link: "https://carnetix.vercel.app/",
+    image: "",
+    url: "https://carnetix.vercel.app/",
+    tools: ["React", "Next.js", "Tailwind CSS,", "Supabase"],
+  },
  
   {
     title: "Naranj",
