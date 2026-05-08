@@ -32,6 +32,24 @@ const projects = [
     tools: ["WordPress", "GraphQL"],
   },
   {
+    title: "Amornakoch",
+    description: "Restaurant website highlighting the menu, booking, and a virtual tour experience.",
+    date: "2020",
+    link: "https://amornakoch.com",
+    image: "",
+    url: "https://amornakoch.com",
+    tools: ["WordPress"],
+  },
+  {
+    title: "Terrasse Marjana",
+    description: "Rooftop restaurant website with reservations, menu, gallery, and venue details.",
+    date: "2022",
+    link: "https://terrassemarjana.com",
+    image: "",
+    url: "https://terrassemarjana.com",
+    tools: ["WordPress"],
+  },
+  {
     title: "Quizzical",
     description: "An interactive quiz app with a modern design for playing trivia quizzes.",
     date: "03/2023",
@@ -61,6 +79,7 @@ const projects = [
     url: "https://instorefashion.myshopify.com/",
     tools: ["Shopify"],
   },
+  /*
   {
     title: "Emma Is Social",
     description: "Modern marketing website focused on social growth services with engaging animations.",
@@ -70,6 +89,8 @@ const projects = [
     url: "https://emmaissocial.vercel.app/",
     tools: ["React", "Next.js", "Tailwind CSS", "GSAP"],
   },
+  */
+  
   {
     title: "The Sagio",
     description: "Shopify-based fashion storefront focused on brand style and smooth customer journey.",
