@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer';
 export async function POST(req) {
   const { name, email, subject, message } = await req.json();
 
-  // Create a transporter using SMTP
+  
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
@@ -16,7 +16,7 @@ export async function POST(req) {
   });
 
   try {
-    // Send mail with defined transport object
+   
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,

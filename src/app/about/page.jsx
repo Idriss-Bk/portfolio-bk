@@ -149,6 +149,7 @@ const Aboutpage = () => {
             <div>
               <h2 className="text-xl font-bold">Vocational Diploma in Computer Development</h2>
               <p className="text-base mt-2">Ecole Racine - 2021 to 2023</p>
+             
             </div>
           </div>
         </div>
