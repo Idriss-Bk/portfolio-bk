@@ -25,6 +25,8 @@ const Aboutpage = () => {
     { title: "Strapi" },
     { title: "WordPress" },
     { title: "MySQL" },
+    { title: "PostgreSQL" },
+    { title: "Supabase" },
     { title: "MongoDB" },
     { title: "Docker" },
     { title: "Claude Code" },
