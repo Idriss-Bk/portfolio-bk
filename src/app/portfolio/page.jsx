@@ -358,6 +358,7 @@ const projects = [
   },
   
   
+  
 ];
 
 const ProjectCard = ({ project }) => {
@@ -416,6 +417,19 @@ const ProjectCard = ({ project }) => {
   );
 };
 
+// const ProjectTest = () => {
+//   return (
+//     <motion.dev
+//     calssName="h-full flex flex-col items text-center justify-center"
+//     intial={{y:"-2000vh"}}
+//     animale={{y:"0%"}}
+//     transition={{duration:0.9}}
+//     <div classNAme="h-full flex flex-col items text-center justify-center bg-red-500"
+// ></div>
+    
+//     ></motion.dev>
+//   )
+// }
 const Portfolio = () => {
   return (
     <motion.div
