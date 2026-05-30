@@ -418,6 +418,7 @@ const ProjectCard = ({ project }) => {
 };
 
 
+
 const Portfolio = () => {
   return (
     <motion.div
